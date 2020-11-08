@@ -1,0 +1,22 @@
+{
+  "name": "conquip_master",
+  "version": "1.0.0",
+  "description": "Conquip Case Management System",
+  "main": "server",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "iGenius DevTeam",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
